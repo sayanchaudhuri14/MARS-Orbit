@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # Import oppositions data from the CSV file provided
 
     mars = pd.read_csv(
-        r'C:\Users\sayan\OneDrive\Desktop\Data Analysis Projects\Data\01_data_mars_opposition_updated.csv'
+        "../data/Mars_Opposition_data.csv"
     )
 
     # Extract times from the data in terms of number of days.
